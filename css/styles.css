@@ -27,9 +27,15 @@ header nav ul li {
     margin-right: 20px;
 }
 
+
+
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s ease; /* Adiciona uma transição suave */
+}
+header nav ul li a:hover {
+    color: #a39d9d; /* Altera a cor do texto ao passar o mouse */
 }
 
 main {
